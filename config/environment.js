@@ -5,6 +5,14 @@ module.exports = function(environment) {
     modulePrefix: 'list-app',
     environment,
     rootURL: '/',
+    firebase:{
+       apiKey: "AIzaSyC4pNZh45Nl48kEeVrMd7IQMzwswPtqaJk",
+    authDomain: "todo-app-58f29.firebaseapp.com",
+    databaseURL: "https://todo-app-58f29.firebaseio.com",
+    projectId: "todo-app-58f29",
+    storageBucket: "todo-app-58f29.appspot.com",
+    messagingSenderId: "112160369538"
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
