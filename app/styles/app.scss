@@ -1,5 +1,6 @@
 @import "bootstrap";
-*{
+
+* {
   margin:0px;
   padding:0px;
 }
@@ -9,4 +10,8 @@ html {
 
 .library-item {
   min-height: 150px;
+}
+th,td
+{
+	text-align:center;
 }

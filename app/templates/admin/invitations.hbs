@@ -4,12 +4,14 @@
   <thead>
     <tr>
       <th>E-mail</th>
+      <th>Action</th>
     </tr>
   </thead>
   <tbody>
   {{#each model as |invitation|}}
     <tr>
       <td>{{invitation.email}}</td>
+      <td><button class="btn btn-danger btn-xs" {{action 'deleteLibrary' invitation}}>Delete</button></td>
     </tr>
   {{/each}}
   </tbody>
