@@ -2,10 +2,10 @@
 <div class="jumbotron text-center" style="width:35%;margin:0px auto;position:relative;top:25px;border:1px solid black;">
    <h2 style="margin-top:-25px;">SignUp</h2>
    <br>
-    {{input type="email" value=emailAddress class="form-control" placeholder="E-mail address" autofocus="autofocus"}}
+    {{input type="email" value=model.emailAddress class="form-control" placeholder="E-mail address" autofocus="autofocus"}}
     <br>
-    {{input type="password" value=password class="form-control" placeholder="Password" autofocus="autofocus"}}
+    {{input type="password" value=model.password class="form-control" placeholder="Password" autofocus="autofocus"}}
     <br>
-     <button class="btn btn-primary btn-lg btn-block"   {{action 'saveInvitation'}}>SignUp</button>
+     <button class="btn btn-primary btn-lg btn-block"   {{action 'save' model}}>SignUp</button>
 </div>
 
